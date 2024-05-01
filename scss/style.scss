@@ -1,0 +1,43 @@
+// vendor 
+@import '../scss/vendors/swiper.min.css';
+@import '../scss/vendors/fancybox.css';
+
+
+
+// // Utils
+@import '../scss/utils/var';
+@import '../scss/utils/typo';
+@import '../scss/utils/mixins';
+@import '../scss/utils/header';
+@import '../scss/utils/footer';
+
+
+
+// Page's Section
+@import '../scss/components/banner';
+@import '../scss/components/filter';
+@import '../scss/components/action';
+@import '../scss/components/blog_slider';
+@import '../scss/components/faq';
+@import '../scss/components/modal';
+@import '../scss/components/payments-services';
+@import '../scss/components/compition-banner';
+
+// Page
+@import "../scss/pages/home";
+@import "../scss/pages/contact";
+@import "../scss/pages/case-studies";
+@import "../scss/pages/investor_portal";
+@import "../scss/pages/pricing";
+@import "../scss/pages/software";
+@import "../scss/pages/about";
+@import "../scss/pages/community";
+@import "../scss/pages/partnership";
+@import "../scss/pages/contact_us";
+@import "../scss/pages/careers";
+@import "../scss/pages/404";
+@import '../scss/components/general-page';
+@import '../scss/pages/author';
+@import '../scss/pages/guest';
+@import '../scss/pages/security';
+@import '../scss/pages/compairison';

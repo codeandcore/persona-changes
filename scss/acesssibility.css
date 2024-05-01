@@ -1,0 +1,7 @@
+/* accessibility css */
+.accessibility_mode :is(li,a,button,h1,h2,h3,h4,h5,h6,p):focus, .accessibility_mode [tabindex="0"]:focus{outline: 1px dashed #F38A04 !important; outline-offset: 2px!important;}
+.accessibility_mode :is(input,textarea,select):focus{outline: 1px solid #F38A04 !important;}
+.accessibility_mode header .header_wrap nav .menu li .sub-menu li.showcase_col.featured_blocks .featured_wrap .featured_block figure a:focus{outline: 1px solid #F38A04 !important;}
+.accessibility_mode .tags li a:focus{outline: none; background: rgba(243, 138, 4, 0.1);}
+.software-sticky_nav .tags li a{border-radius: 47px;}
+.accessibility_mode .software-sticky_nav .tags li a:focus{background: rgba(243, 138, 4, 0.1); border: 1px solid #F38A04; outline: none;}

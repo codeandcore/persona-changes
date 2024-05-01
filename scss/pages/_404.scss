@@ -1,0 +1,57 @@
+.errorPage{
+    padding: 261px 0 177px;
+    @media (max-width:991px){
+        padding: 200px 0 80px;
+     }
+    figure{
+        max-width: 297px;
+        margin: 0 auto 60px auto;
+        font-size: 0;
+        @media (max-width:767px){
+            margin: 0 auto 80px auto;
+        }
+    }
+    h2{
+        font-weight: 400;
+        margin-bottom: 26px;
+        color: $light_black;
+        strong{
+            @media (max-width:575px){
+                display: block;
+            }
+        }
+        @media (max-width:991px){
+           font-size: 34px;
+        }
+        @media (max-width:767px){
+            margin-bottom: 60px;
+        }
+    }
+    p{
+        font-size: 20px;        
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media (max-width:767px){
+            flex-direction: column;
+            padding-top: 20px;
+        }
+        li{
+            margin: 93px  25px  0;
+            @media (max-width:991px){
+                margin: 60px  20px  0;
+            }
+            @media (max-width:767px){
+                margin: 50px  0px  0px;
+            }
+            a{
+                color:$secondary;
+                &:hover{
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

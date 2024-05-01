@@ -1,0 +1,705 @@
+/*stand with isral page*/
+
+.container-lg{max-width: 1630px;}
+.stand-with-page h1{font-family: "Nunito Sans", sans-serif;color:#ffffff;letter-spacing: 0; font-size: 80px;font-weight: 800;margin-bottom: 17px;    line-height: 1.1;text-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06), 0px 1px 3px rgba(16, 24, 40, 0.10);}
+.stand-with-page h2{font-family: "Nunito Sans", sans-serif; font-size: 72px; font-style: normal;font-weight: 800;line-height: 1.1; margin-bottom: 80px;}
+.stand-with-page h3{font-family: "Nunito Sans", sans-serif; font-size: 40px;  font-style: normal;  font-weight: 800;}
+.stand-with-page h4{font-family: "Nunito Sans", sans-serif; font-size: 24px;  font-style: normal;  font-weight: 800; line-height: 1.24;margin-bottom: 8px;}
+.stand-with-page p{color:#0C1B36;}
+.stand-with-page .p-large p{font-size: 24px;    line-height: 1.33;margin-bottom: 16px;}
+.stand-with-page .btn{background-color: #FAAD14;border-color:  #FAAD14;}
+.stand-with-page .btn.lg{padding: 21px 38px;  font-size: 24px;}
+.stand-with-page .btn:hover{background-color: #FFB232; border-color: #FFB232;}
+.stand-with-page .btn.border-btn{background-color: transparent; border-color:#FAAD14;color:#FAAD14;}
+.stand-with-page .btn.border-btn:hover{background-color: #FFB232;color:#ffffff;}
+.stand-with-page .btn.arrow-btn{padding: 14px 60px;}
+.stand-with-page .btn.arrow-btn:after{content: "";width: 16px;height: 16px; background-image: url(../images/arrow-right.svg);background-repeat: no-repeat;background-size: contain;display: inline-block;vertical-align: middle;margin-left: 4px;}
+.stand-with-page .round{border-radius: 40px;}
+.stand-with-page span.text-orange{font-weight: 600;letter-spacing: 0.32px;text-transform: uppercase;display: inline-block;}
+.stand-with-page section{padding: 160px 0; background: #F8F9FC;}
+.stand-with-page  .mobile{display: none;}
+
+/* stand with header start*/
+.stand-with-header{position: absolute;padding: 52px 0;}
+.stand-with-header .stand-with-header-inner .logo{max-width: 161px;}
+.header-right{display: flex;align-items: center;padding: 13.6px 24px;border-radius: 100px;
+  background: rgba(12, 27, 54, 0.40);}
+.header-right > div{display: flex;font-size: 24px;font-weight: 400;color: #ffffff;}
+.header-right > div strong{padding-left: 5px;font-weight: 700;color:#FFB232;}
+.header-right > div:not(:last-child):after{content:"|";padding:  0 24px;    font-weight: 300;}
+
+/* stand with header end*/
+
+/*stand with isral banner css*/
+ body section.stand-with-isreal-banner{display: flex;align-items: center;padding:0 0 0;height:100vh;background-repeat: no-repeat;background-size: cover;background-position: center center; background-color: #21263e;}
+ body section.stand-with-isreal-banner .container{height:100%;display:flex;position:relative;align-items:center;}
+.stand-with-isreal-banner .stand-with-isreal-banner-content span{display: inline-block; margin-bottom: 32px;}
+.stand-with-isreal-banner .stand-with-isreal-banner-content p{color:#ffffff;margin-bottom: 50px;font-weight: 400;}
+.stand-with-isreal-banner .logoWrapper{margin-top:112px;position: absolute;bottom: 48px;left: 15px;width: 100%;justify-content: space-between;} 
+.stand-with-isreal-banner .logoWrapper .icon{height:50px;}
+.stand-with-isreal-banner .logoWrapper .icon img{height:100%;object-fit:contain;}  
+/*stand with isral banner css end*/
+
+/*about the campaign css*/
+.about-campaign {padding: 230px 0 160px;background-color: #F8F9FC;}
+.about-campaign .about-campaign-content.btn{margin-top: 32px;}
+.about-campaign .about-campaign-image{padding: 8px 8px 0 0;font-size: 0;}
+.about-campaign .about-campaign-image img{border-radius: 24px;}
+.about-campaign .about-campaign-image:before{content: "";position: absolute;top: 0;right: 0;width: calc(100% - 25px);height: calc(100% - 25px);background-color: #FAAD14;border-radius: 24px;}
+.about-campaign .about-campaign-content .btn{margin-top: 40px;}
+
+.about-campaign .about-campaign-content p:last-child{margin-bottom: 0;}
+.about-campaign .box-main .border-box{border-top: 8px solid #FAAD14;height: 100%;    padding: 48px; border-radius: 24px;background-color: #ffffff; box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);}
+.about-campaign .box-main .border-box .title{margin-bottom: 24px;}
+.about-campaign .box-main .border-box .title .icon{margin-right: 32px;font-size: 0;}
+.about-campaign .box-main .border-box p:last-child{margin-bottom: 0;}
+
+.about-campaign .about-campaign-main-box{padding: 48px; background-color: #ffffff; border-radius: 24px;box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);    margin-bottom: 80px;}
+
+.about-campaign .about-campaign-main-box .img-desk{padding-left: 120px;}
+.about-campaign .about-campaign-main-box h2,.join-our-initiative h2 {font-size: 56px;    margin-bottom: 24px;    line-height: 1.15;}
+.about-campaign .about-campaign-main-box > div{width: 50%;}
+
+.about-campaign .about-campaign-main-box:nth-child(even){    flex-direction: row-reverse;}
+.about-campaign .about-campaign-main-box:nth-child(even) .img-desk{padding-left: 0;padding-right: 120px;}
+.about-campaign .about-campaign-main-box:nth-child(even) .about-campaign-image{
+  padding: 8px 0px 0 8px;
+}
+.about-campaign .about-campaign-main-box:nth-child(even) .about-campaign-image:before{
+  top: 0;
+  left: 0;
+}
+/*about the campaign css*/
+
+/* charities organizations start */
+.stand-with-page .charities-organizations {background-color: #0C1B36;}
+.charities-organizations .row > [class*='col-']{margin-bottom: 30px;}
+.charities-organizations .charities-organizations-box{padding: 40px;background-color: #ffffff;border-radius: 24px;}
+.charities-organizations .charities-organizations-box .image{border-radius: 24px; overflow: hidden;margin-bottom: 24px; font-size: 0;width: 100%;text-align: center;border: 1px solid #D9D9D9;}
+.charities-organizations .charities-organizations-box span{font-size: 10px; margin-bottom: 8px; display: block;}
+.charities-organizations .charities-organizations-box span p{display: none;}
+.charities-organizations .charities-organizations-box span p.shown{display: inline;}
+.contentLen .showContent.notRemove:after {
+  content: "View more" !important;
+}
+.charities-organizations .charities-organizations-box .btn{margin-top: 16px;}
+.charities-organizations .charities-organizations-box .showContent{color:#40A9FF;text-decoration: none;font-weight: 600;display: inline-flex;align-items: center;}
+/* charities organizations end */
+
+/* campaign partners start */
+.campaign-partners{position: relative;  }
+.campaign-partners:before{content: "";position: absolute;top: 0;left: 0;width: 100%;height: 50%; background-color: #FAAD14;}
+.campaign-partners h2 strong{color:#0C1B36 !important;}
+.campaign-partners .campaign-partners-box{ position: relative; display: flex; justify-content: center;flex-wrap: wrap;
+  gap: 80px; padding:120px 48px; background-color: #ffffff; border-radius: 24px; box-shadow: 0px 27px 125px 0px rgba(0, 0, 0, 0.06);}
+.campaign-partners .campaign-partners-box > div{width: calc(33.33% - 60px); text-align: center;display: inline-flex;align-items: center;justify-content: center;}
+/* campaign partners end */
+
+/*Donors css start*/
+.stand-with-page section.donors{ padding-top: 0;}
+.donors .multiTestimonial_nav{    max-width: 1700px;padding:0 10px;}
+.stand-with-page .donors  .container-lg{max-width: 1500px;}
+.donors .multiTestimonial_slider  .swiper-wrapper{height: auto;}
+.donors .multiTestimonial_slider .swiper-pagination{    margin-top: 80px;}
+.donors .multiTestimonial_slider  .swiper-slide{padding:102px 62px 62px; background-color: #ffffff; border-top: 4px solid #FAAD14;box-shadow: 0px 27px 125px 0px rgba(0, 0, 0, 0.06);border-radius: 24px;margin-top: 60px;}
+.donors .multiTestimonial_slider .donors-single-box{display: flex; flex-direction: column;justify-content: center;align-items: center;height: 100%;}
+.donors .multiTestimonial_slider .donors-single-box .donors-single-box-icon{background-color: #ffffff;box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);  border-radius: 16px;width: 120px; height: 120px; display: flex; align-items: center; justify-content: center; position: absolute;  top: -60px;  left: 50%;  transform: translateX(-50%);}
+.donors .multiTestimonial_slider .donors-single-box h6{ font-size: 32px; font-style: normal;font-weight: 800; font-family: "Nunito Sans", sans-serif; margin-bottom: 16px;}
+.donors .multiTestimonial_slider .donors-single-box p{color:#000;font-size:24px;font-weight:600;}
+.donors .multiTestimonial_slider .donors-single-box p span{font-weight:inherit;font-size:inherit;}
+/*Donors css end*/
+
+/*stand with isral footer start*/
+.stand-with-footer{padding: 60px 0;border-top: 1px solid #D9D9D9;    background: #f8f9fc;}
+.stand-with-footer p{padding-bottom: 0;}
+.stand-with-footer .stand-with-footer-lf{width: 100%;max-width: 790px;}
+.stand-with-footer .stand-with-footer-lf a{margin-bottom: 10px;}
+.stand-with-footer .stand-with-footer-lf strong{font-weight: 700;}
+/*stand with isral footer start*/
+
+/*donate popup css start*/
+.donationPopup .popup_wrap {width: 600px;}
+.donationPopup .popup_wrap .popup_header .close_btn {font-size: 24px;line-height: 1;display: inline-block;top: 24px;right: 22px;color: #000;}
+.donationPopup .popup_wrap .popup_header {margin-bottom: 30px;}
+.donationPopup .popup_wrap .popup_body .btn {margin-top: 40px;font-size: 24px;font-style: normal;font-weight: 600;display: inline-block;width: auto;padding: 21px 44px;}
+.donationPopup .popup_wrap .popup_body p { color: var(--primary-blue, #0C1B36); text-align: center; font-family: Nunito Sans; font-size: 24px; font-style: normal; font-weight: 400; line-height: 32px; }
+.donationPopup .popup_wrap .popup_body p a{font-size:inherit;color:inherit;font-weight:bold;}
+.donationPopup .popup_wrap .popup_body p a:hover{color:#FFB232;}
+.stand-with-isreal-banner .logoWrapper .mobile{display: none;}
+.stand-with-isreal-banner .logoWrapp er.desktop{display: block;}
+.donors .multiTestimonial_slider.swiper{padding: 0 10px;}
+.donors .multiTestimonial_slider .swiper-slide{ box-shadow: 0px 7px 11px 6px rgb(0 0 0 / 2%);}
+/*donate popup css end*/
+
+/*join our initiative start*/
+.stand-with-page .join-our-initiative{padding-top: 0;}
+.join-our-initiative .join-our-initiative-inner-box{flex-direction: column; padding: 174px 40px;text-align: center; background-color: #0C1B36; border-radius: 24px;}
+.join-our-initiative .join-our-initiative-inner-box .btn{text-transform: lowercase; padding: 29px 50px;margin-top: 16px; }
+/*join our initiative start end*/
+.charities-organizations .contentLen .showContent.notRemove{
+  transition: .1s ease all;
+}
+.charities-organizations .contentLen .showContent.notRemove:before{
+  content: "View more" !important;
+}
+.charities-organizations .contentLen .showContent.notRemove.active:before{
+  content: "View less" !important;
+}
+.charities-organizations .contentLen .showContent.notRemove:after{
+  content: "" !important;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/chevron-down.svg);
+  display: inline-block;
+  transition: .1s ease all;
+}
+.charities-organizations .contentLen .showContent.notRemove.active:after{
+  transform: rotate(-180deg);
+}
+.charities-organizations .charities-organizations-box .showContent:hover:after{
+  filter: brightness(0) saturate(100%) invert(70%) sepia(93%) saturate(2099%) hue-rotate(351deg) brightness(108%) contrast(96%);
+}
+
+/*stand with isral page responsive*/
+@media only screen and (max-width: 1600px){
+  .stand-with-isreal-banner .logoWrapper{left: 0;right: 0;padding: 0px 40px;}
+  .container-lg{max-width: 1400px;}
+  .stand-with-header{padding: 38px 0;}
+  .stand-with-page h1{font-size: 64px;}
+  .stand-with-page .p-large p{font-size: 22px;}
+  .stand-with-page h2{font-size: 50px;margin-bottom: 35px;}
+  .stand-with-page section{padding: 120px 0;}
+  .stand-with-page .p-large p{font-size: 20px;}
+  .stand-with-page .btn.lg{font-size: 22px;}
+  .stand-with-page h3{font-size: 34px;}
+  .about-campaign .box-main .border-box .title .icon{margin-right: 22px;}
+  .donors .multiTestimonial_slider .donors-single-box h6{font-size: 26px;}
+  .donors .multiTestimonial_slider .donors-single-box p{font-size: 20px;}
+  .stand-with-page .donors .container-lg{max-width: 1400px;}
+  .donors .multiTestimonial_nav{padding: 0 30px;}  
+  .charities-organizations .charities-organizations-box span p,.charities-organizations .charities-organizations-box .showContent{font-size: 15px;}
+
+}
+@media only screen and (max-width: 1536px) {
+    .stand-with-page h1{font-size: 54px;}
+    .stand-with-isreal-banner .logoWrapper{gap: 80px;}
+}
+
+@media only screen and (max-width: 1460px) {
+  .stand-with-page h2{
+    font-size: 52px;
+    margin-bottom: 48px;
+  }
+  .stand-with-page h3{
+    font-size: 32px;
+  }
+  .stand-with-page h4{
+    font-size: 22px;
+  }
+  .stand-with-page section {
+    padding: 100px 0;
+  }
+  .stand-with-page .p-large p,.stand-with-page .btn.lg{
+    font-size: 20px;
+  }
+  .stand-with-page .btn.arrow-btn {
+      padding: 14px 44px;
+  }
+  .stand-with-page .btn.lg{
+    padding: 21px 38px;
+  }
+  .container-lg{
+    max-width: 90%;
+  }
+  .stand-with-page .donors .container-lg{
+    max-width: 88%;
+  }
+
+  .about-campaign {
+    padding: 180px 0 120px;
+  }
+  .about-campaign .box-main .border-box{
+    padding: 38px;
+  }
+  .about-campaign .about-campaign-content{
+    padding-right: 0;
+  }
+  .about-campaign .box-main .border-box .title .icon{
+    margin-right: 22px;
+  }
+
+  .charities-organizations .charities-organizations-box{
+    padding: 22px;
+  }
+
+  .donors .multiTestimonial_slider .swiper-slide{
+    padding: 92px 52px 52px;
+  }
+  .donors .multiTestimonial_slider .donors-single-box h6{
+    font-size: 28px;
+  }
+
+  .donors .multiTestimonial_slider .donors-single-box .donors-single-box-icon{
+    width: 100px;
+    height: 100px;
+  }
+  .donors .multiTestimonial_slider .donors-single-box .donors-single-box-icon img{
+    max-width: 44px;
+  }
+  .donors .multiTestimonial_slider .donors-single-box p{
+    font-size: 20px;
+  }
+
+  .about-campaign .about-campaign-main-box h2, .join-our-initiative h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  .about-campaign .about-campaign-main-box{
+    margin-bottom: 60px;
+    padding: 38px;
+  }
+  .about-campaign .about-campaign-main-box .img-desk{
+    padding-left: 60px;
+  }
+  .about-campaign .about-campaign-main-box:nth-child(even) .img-desk{
+    padding-right: 60px;
+  }
+  
+  .join-our-initiative .join-our-initiative-inner-box{
+    padding: 124px 40px;
+  }
+
+  .charities-organizations .charities-organizations-box span p ,.charities-organizations .charities-organizations-box .showContent{font-size: 14px;}
+  
+}
+@media only screen and (max-width: 1366px) {
+    .container-lg{max-width: 1140px;}
+    .stand-with-header {
+        padding: 22px 0;
+    }
+    
+    .stand-with-page h1 {
+        margin-bottom: 24px;
+        font-size: 44px;
+    }
+    
+    .stand-with-isreal-banner .stand-with-isreal-banner-content p {
+        margin-bottom: 32px;
+    }
+    
+    .stand-with-isreal-banner .logoWrapper {
+        bottom: 20px;
+    }
+    .header-right > div{
+        font-size: 20px;
+    }
+    .stand-with-header .stand-with-header-inner .logo{
+        max-width: 144px;
+    }
+    .stand-with-isreal-banner .stand-with-isreal-banner-content span{
+      font-size: 14px;
+    }
+    .stand-with-page h1{
+      font-size: 56px;
+    }
+    .stand-with-page .btn.lg{
+      padding: 16px 28px;
+    }
+    .stand-with-isreal-banner .logoWrapper .icon{
+      height: 40px;
+    }
+    .stand-with-page h2{
+      font-size: 44px;
+      margin-bottom: 20px;
+    }
+    .stand-with-page .p-large p, .stand-with-page .btn.lg{
+      font-size: 18px;
+    }
+    .about-campaign .about-campaign-content .btn{
+      margin-top: 20px;
+    } 
+    .stand-with-page h3{
+      font-size: 26px;
+    }
+    .about-campaign .box-main .border-box .title .icon{
+      max-width: 36px;
+    }
+    .stand-with-page section{
+      padding: 70px 0;
+    }
+    .stand-with-page h2{
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    .stand-with-page h4{
+      font-size: 20px;
+    }
+    .stand-with-page .btn.arrow-btn{
+      padding: 12px 30px;
+    }
+    .donors .multiTestimonial_slider .donors-single-box h6{
+      font-size: 20px;      
+    }
+    .donors .multiTestimonial_slider .donors-single-box p{
+      font-size: 18px;
+    }
+
+    .about-campaign .about-campaign-main-box h2, .join-our-initiative h2{
+      margin-bottom: 18px;
+    }
+    .join-our-initiative .join-our-initiative-inner-box .btn{
+      margin-top: 0;
+    }
+    .about-campaign .about-campaign-main-box .img-desk{
+      padding-left: 30px;
+    }
+    .about-campaign .about-campaign-main-box:nth-child(even) .img-desk{
+      padding-right: 30px;
+    }
+    .about-campaign .about-campaign-main-box{
+      margin-bottom: 40px;
+    }
+    .charities-organizations .charities-organizations-box span p,.charities-organizations .charities-organizations-box .showContent{font-size: 13px;}
+
+}
+@media only screen and (max-width: 1199px) {
+  .container-lg ,.stand-with-page .donors .container-lg{
+    max-width: calc(100% - 30px);
+  }
+  .stand-with-page h2{
+    font-size: 46px;
+    margin-bottom: 40px;
+  }
+  .stand-with-page section {
+    padding: 80px 0;
+  }
+  .stand-with-page .p-large p, .stand-with-page .btn.lg{
+    font-size: 18px;
+  }
+
+  .stand-with-footer .stand-with-footer-rt a{
+    font-size: 26px;
+  }
+  .stand-with-footer{    padding: 40px 0;}
+  
+  
+  .donors .multiTestimonial_nav{display: none;}
+  .donors .multiTestimonial_slider .donors-single-box h6{
+    font-size: 28px;
+  }
+
+  .about-campaign .about-campaign-main-box h2, .join-our-initiative h2{
+    font-size: 28px;
+  }
+  .about-campaign .about-campaign-main-box > div{
+    width: 100%;
+  }
+  .join-our-initiative .join-our-initiative-inner-box{
+    padding: 74px 20px;
+  }
+  
+}
+@media only screen and (max-width: 991px) {
+  .charities-organizations .row > [class*='col-']{
+    max-width: 50%;
+  }
+  .campaign-partners .campaign-partners-box > div{
+    width: calc(50% - 60px);
+  }
+  .donors .multiTestimonial_slider .swiper-slide{
+    padding: 82px 40px 40px;
+  }
+  .charities-organizations .charities-organizations-box span p, .charities-organizations .charities-organizations-box .showContent{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+ 
+  .stand-with-page .btn.lg {
+    padding: 16px 24px;
+    text-align: center;
+  }
+  .stand-with-page h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .stand-with-page h3{
+    font-size: 24px;
+  }
+  .stand-with-page h4{
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .stand-with-page .p-large p, .stand-with-page .btn.lg{
+    font-size: 16px;
+  }
+  .stand-with-page section {
+    padding: 60px 0;
+  }
+  .stand-with-page .stand-with-isreal-banner .btn.lg{
+    padding: 16px 48px;
+    width: auto;
+  }
+  .stand-with-page .btn.arrow-btn{
+    padding: 14px 10px;
+  }
+
+  body section.stand-with-isreal-banner .container{
+    justify-content: center;
+  }
+  body section.stand-with-isreal-banner{
+    background-position: center right -60px;
+    position: relative;
+  }
+  body section.stand-with-isreal-banner:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(12,27,54,0.4);
+  }
+  .stand-with-isreal-banner-content{
+    max-width: 330px;
+  }
+  
+  .stand-with-isreal-banner-content h1{
+    max-width: 272px;
+  }
+  .campaign-partners .campaign-partners-box {
+    gap: 60px;
+  }
+  .campaign-partners .campaign-partners-box > div{
+    width: 100%;
+  }
+
+  .stand-with-page  .mobile{display: block;}
+  .stand-with-page  .desktop{display: none;}
+
+
+ 
+  .about-campaign .box-main .border-box{
+    padding: 32px;
+    height: auto;
+    margin-bottom: 48px;
+  }
+  .about-campaign .box-main .border-box .title{
+    margin-bottom: 16px;
+  }
+  .about-campaign .box-main > div:last-child .border-box{
+    margin-bottom: 0;
+  }
+  .about-campaign .box-main .border-box .title .icon{
+    margin-right: 16px;
+    max-width: 25px;
+  }
+  
+  
+  .about-campaign .about-campaign-main-box h2{
+    margin-bottom: 8px;
+    max-width: 180px;
+  }
+  .about-campaign .about-campaign-image {
+    padding: 5px 5px 0 0;
+    height: 206px;
+    margin-bottom: 24px;
+  }
+  .about-campaign .about-campaign-image img{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .about-campaign .about-campaign-image:before{
+    width: calc(100% - 15px);
+    height: calc(100% - 15px);
+    border-radius: 16px;
+  }
+  
+  .about-campaign .about-campaign-content .btn {
+      margin-top: 26px;
+  }
+
+  .charities-organizations .row > [class*='col-']{
+    width: 100%;
+  }
+  .charities-organizations .row > [class*='col-']:not(:last-child){
+    margin-bottom: 30px;
+  }
+  .charities-organizations .charities-organizations-box{
+    padding: 32px;
+    border-radius: 16px;
+  }
+  .charities-organizations .charities-organizations-box .image{
+    border-radius: 16px;
+  }
+  .charities-organizations .charities-organizations-box span{
+    margin-bottom: 8px;
+  }
+  .charities-organizations .charities-organizations-box p{
+    display: none;
+  }
+  .charities-organizations .charities-organizations-box .btn{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .charities-organizations .charities-organizations-box span p.shown{
+    display: none;
+  }
+
+  .campaign-partners:before{
+    height: 40%;
+  }
+  .campaign-partners h2 { margin-left: auto;margin-right: auto;   max-width: 255px;}
+  .campaign-partners h2 br{
+    display: none;
+  } 
+  
+  .campaign-partners .campaign-partners-box{
+    border-radius: 16px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .campaign-partners-box-logo img {
+    max-width: 146px;
+    max-height: 60px;
+  }
+
+  .donors .multiTestimonial_slider .swiper-slide{border-radius: 16px;}
+
+  
+
+
+  .donationPopup .popup_wrap{width:100%;padding:65px 32px 32px;}
+  .donationPopup .popup_wrap .popup_body p{font-size:16px;line-height:1.5;word-wrap:break-word;}
+  .donationPopup .popup_wrap .popup_header svg{width:60px;height:60px;}
+  .donationPopup .popup_wrap .popup_header{margin-bottom:24px;}
+  body .popup.donationPopup .popup_container{padding-right:32px !important;}
+  .donationPopup .popup_wrap .popup_header .popup_heading{padding:0;}
+  .donationPopup .popup_wrap .popup_body .btn{margin-top:24px;font-size:16px;display:block;padding:16px 44px;}
+
+  .stand-with-footer{    padding: 28px 0;}
+  .stand-with-footer .stand-with-footer-rt a{    font-size: 16px;  }
+  
+
+  header .logo img{display: block;max-height: 30px;max-width: none;}
+
+  .header-right{padding:8px;}
+  .header-right > div{font-size:12px;}
+  .header-right > div:not(:last-child):after{padding:0 8px;}
+  body section.stand-with-isreal-banner{padding-top: 140px;height: auto;}
+  .stand-with-isreal-banner .logoWrapper{position: relative;inset: 0;gap: 0;margin: 87px 0 25px;padding: 0;width: calc(100% + 60px); margin-left: -30px;}
+  .container-lg,.stand-with-page .donors .container-lg{max-width:100%;}
+  .stand-with-header .stand-with-header-inner .logo{width:100%;}
+  .stand-with-isreal-banner .stand-with-isreal-banner-content span{font-size:12px;max-width:180px;line-height:1.3;text-align:center;margin:0 auto 16px;display:block;}
+  .stand-with-page h1{font-size:32px;    margin: 0 auto 16px auto;text-align:center;}
+  .stand-with-page .p-large p{font-size:14px;font-style:normal;line-height:22px;}
+  .stand-with-page .p-large p br{display:none;}
+  .stand-with-isreal-banner-content{text-align:center;}
+  body section.stand-with-isreal-banner .container{flex-wrap: wrap;}
+  .stand-with-isreal-banner .logoWrapper .icon{height: 38px;text-align: center;}
+  .stand-with-isreal-banner .logoWrapper .mobile{display: block;}
+  .stand-with-isreal-banner .logoWrapper .desktop{display: none;}
+  .donors .multiTestimonial_slider .swiper-pagination{margin-top:40px;padding-bottom:60px;}
+  .about-campaign .box-main .border-box p{padding:0;text-align:left;}
+  .stand-with-page section.donors .container{padding:0;}
+    .donors .multiTestimonial_slider .swiper-slide{padding:28px 20px 28px;margin-top:28px;}
+    .donors .multiTestimonial_slider .swiper-slide .donors-single-box-content h6{font-size:13px;line-height:1.2;margin:18px 0 7px;}
+    .donors .multiTestimonial_slider .swiper-slide .donors-single-box-content p{font-size:11px;line-height:1.6;}
+    .donors .multiTestimonial_slider .donors-single-box .donors-single-box-icon{width:57px;height:57px;top:-30px;border-radius: 8px;}
+    .donors .multiTestimonial_slider .donors-single-box .donors-single-box-icon img{max-width:23px;}
+    .stand-with-page section.donors{padding-bottom: 0;}
+    
+    .donors .multiTestimonial_slider .swiper-pagination{z-index:333;}
+
+
+    .stand-with-page  .stand-with-isreal-banner-content p{
+      font-size: 14px;
+      line-height: 22px;
+      padding: 0px;
+      font-weight: 600;
+    }
+    .stand-with-isreal-banner-content .header-right{
+      display: inline-flex;
+      margin-bottom: 24px;
+      background: rgba(12, 27, 54, 0.80);
+    }
+
+    .stand-with-header .header-right{
+      display: none;
+    }
+    
+
+    .about-campaign .about-campaign-main-box, .about-campaign .about-campaign-main-box:nth-child(even){
+      padding: 32px;
+      flex-direction: column-reverse;
+      
+    }
+    .about-campaign .about-campaign-main-box:nth-child(even) .img-desk{
+      padding-right: 0;
+    }
+    
+    .about-campaign .about-campaign-main-box .img-desk{
+      padding-left: 0;
+    }
+
+    .stand-with-footer .container{
+      padding:  0 26px;
+    }
+    .stand-with-footer p{
+      font-size: 12px;
+      text-align: justify;
+      line-height: 14px;
+    }
+
+    .join-our-initiative h2{
+      margin-bottom: 24px;
+    }
+    .join-our-initiative .container{
+      padding: 0;
+    }
+    .join-our-initiative .join-our-initiative-inner-box{
+      border-radius: 0;
+      padding: 60px 10px;
+    }
+    
+    .charities-organizations .charities-organizations-box .showContent{
+      display: none;
+    }
+
+    .stand-with-isreal-banner .service_box_swiper{    transition: .5s ease all;}
+    .stand-with-isreal-banner .swiper-wrapper{    transition-timing-function: linear;}
+
+}
+/*stand with isral page responsive end*/
+
+
+/*stand with isral page end*/
+.stand-with-page h1 strong,.stand-with-page h1 b,.stand-with-page h2 strong,.stand-with-page h2 b,.stand-with-page h3 strong,
+.stand-with-page h3 b,.stand-with-page h4 strong,.stand-with-page h4 b,.stand-with-page h5 strong,.stand-with-page h5 b,.stand-with-page h6 strong,.stand-with-page h6 b{color:#FAAD14;}
+.stand-with-page .text-orange{color:#FAAD14;}
+.stand-with-page .multiTestimonial_slider .swiper-pagination-bullet-active,.multiTestimonial_slider .swiper-pagination-bullet:hover{border-color:#FFB232;background-color:#FFB232;}
+.stand-with-isreal-banner .logoWrapper{height:52px;}
+
+/* D9D9D9 */
+
+
+.stand-with-page .btn,
+.about-campaign .about-campaign-content .btn{
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.stand-with-page .btn:hover,.about-campaign .about-campaign-content .btn:hover{
+  background-color: #F38A04;
+  color: #ffffff;
+  border-color: #F38A04;
+}
+

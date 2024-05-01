@@ -1,0 +1,306 @@
+.software {
+  padding: 49px 0 160px;
+  border-bottom: 1px solid $border_color;
+  @media (max-width: 767px) {
+    padding: 80px 0 60px;
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 42px;
+      right: 0;
+      width: 72px;
+      height: 54px;
+      background: linear-gradient(
+        90deg,
+        #f8f9fc 0%,
+        rgba(248, 249, 252, 0) 100%
+      );
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+  }
+  &-sticky_nav {
+    max-width: 27%;
+    padding: 0;
+    z-index: 1;
+    position: absolute !important;
+    left: 80px;
+    top: 0;
+    &.is-affixed {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 20px;
+      right: 0;
+      z-index: 1;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      height: 48px;
+      width: 72px;
+      background: linear-gradient(
+        90deg,
+        #ffffff 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      pointer-events: none;
+      display: none;
+    }
+    @media (max-width: 767px) {
+      &:before {
+        display: block;
+      }
+    }
+    ul {
+      width: 330px;
+    }
+    @media (max-width: 1199px) {
+      left: 50px;
+    }
+
+    @media (max-width: 767px) {
+      left: 0;
+      overflow-x: auto;
+      top: -50px;
+      margin: 0 -15px;
+      min-width: calc(100% + 30px);
+      animation-name: unset !important;
+    }
+    // padding-top: 80px;
+    .tags {
+      padding-top: 100px;
+      padding-bottom: 20px;
+
+      &:before {
+        display: none;
+      }
+      @media (max-width: 767px) {
+        flex-wrap: nowrap;
+        display: flex;
+        max-width: 500px;
+        margin-left: 0;
+        background: rgb(255 255 255 / 30%);
+        width: auto;
+        padding-left: 20px;
+        backdrop-filter: blur(10px);
+        padding-top: 20px;
+        margin-top: 0;
+        padding-right: 80px;
+      }
+
+      li {
+        transition: none;
+        &.active {
+          .img_wrap {
+            img {
+              filter: brightness(10);
+            }
+          }
+          span {
+            color: #fff;
+            font-weight: 400;
+            @media (max-width: 1440px) {
+              white-space: nowrap;
+            }
+            @media (max-width: 991px) {
+              white-space: inherit;
+            }
+            @media (max-width: 767px) {
+              white-space: nowrap;
+            }
+          }
+          &:hover {
+            span {
+              color: #595959;
+            }
+            .img_wrap {
+              img {
+                filter: none;
+              }
+            }
+          }
+        }
+        &:not(:last-child) {
+          margin-bottom: 12px;
+          @media (max-width: 767px) {
+            margin-bottom: 0;
+          }
+        }
+
+        a {
+          gap: 14px;
+          display: inline-flex;
+          width: 100%;
+          padding: 15.5px 30px;
+          @media (max-width: 1199px) {
+            padding: 10px 20px;
+            white-space: nowrap;
+          }
+          @media (max-width: 991px) {
+            white-space: inherit;
+          }
+          @media (max-width: 767px) {
+            white-space: nowrap;
+          }
+          span {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 25px;
+            color: $light_black;
+            @media (max-width: 1199px) {
+              font-size: 16px;
+            }
+          }
+          .img_wrap {
+            line-height: 0;
+            display: inline-flex;
+            @media (max-width: 767px) {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-content {
+    margin-top: 40px;
+    @media (max-width: 767px) {
+      margin-left: -30px;
+      min-width: calc(100% + 60px);
+      margin-top: 76px;
+    }
+  }
+  &-section {
+    padding: 100px 0 100px 550px;
+    border-radius: 30px;
+    background-color: #f8f9fc;
+    @media (max-width: 1440px) {
+      padding: 100px 0 100px 440px;
+    }
+    @media (max-width: 1199px) {
+      padding: 100px 0 100px 450px;
+    }
+    @media (max-width: 991px) {
+      padding: 100px 0 100px 270px;
+    }
+    @media (max-width: 767px) {
+      border-radius: 0;
+      padding: 60px 32px;
+    }
+    &:last-child {
+      padding-bottom: 0;
+    }
+    &:nth-child(2n) {
+      background-color: #fff;
+    }
+    &:nth-child(odd) {
+      .with-line {
+        .h_tag::after,
+        h3::after {
+          background-color: $gray;
+        }
+      }
+    }
+
+    .content {
+      @media (max-width: 767px) {
+        text-align: center;
+      }
+    }
+    .lottie_wrap{
+      @media (min-width: 768px) {
+        // min-height: 400px;
+      }   
+      @media (max-width: 767px) {
+        min-height: 180px;
+        .lottie-player{
+          min-height: 180px;
+          display: flex;
+          align-items: flex-end;
+          margin-bottom: 20px;
+        }
+      }   
+    }
+    .mobile-title {
+      display: none;
+      @media (max-width: 767px) {
+        display: inline-block;
+        letter-spacing: 0.02em;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: $secondary;
+        margin-bottom: 40px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+    figure {
+      max-width: 440px;
+      margin-bottom: 60px;
+      @media (max-width: 767px) {
+        margin-bottom: 40px;
+      }
+    }
+    .h_tag,
+    h3 {
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 48px;
+      margin-bottom: 24px;
+
+      @media (max-width: 767px) {
+        font-size: 28px;
+        margin-bottom: 24px;
+        line-height: 1.4;
+        z-index: 0;
+      }
+      &.animate {
+        &:before {
+          height: 90%;
+          bottom: 5px;
+        }
+      }
+    }
+    .checklist {
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+    p {
+      max-width: 90%;
+      @media (max-width: 767px) {
+        font-size: 16px;
+        max-width: 100%;
+        text-align: center;
+      }
+    }
+    .checklist {
+      li {
+        margin-bottom: 12px;
+        span {
+          font-size: 16px;
+          font-weight: 300;
+          color: #262626;
+        }
+      }
+    }
+    .right_btn {
+      margin-top: 40px;
+      color: #262626;
+      font-weight: 300;
+      .arrow-round {
+        top: 50%;
+      }
+    }
+  }
+  & + .testimonial {
+    padding: 124px 0;
+    border-bottom: 1px solid $border_color;
+    @media (max-width: 767px) {
+      padding: 60px 0 44px;
+    }
+  }
+}

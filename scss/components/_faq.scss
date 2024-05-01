@@ -1,0 +1,222 @@
+.faqs {
+  padding: 180px 0;
+  background-color: $white;
+  @media (max-width: 1460px) {
+    padding: 100px 0;
+  }
+  @media (max-width: 1199px) {
+    padding: 80px 0;
+  }
+  &_head {
+    padding: 0;
+    p {
+      color: $secondary;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+      letter-spacing: 1px;
+      @media (max-width: 767px) {
+        font-size: 12px;
+      }
+    }
+    .with-line {
+      @media (max-width: 767px) {
+        text-align: left;
+        .h_tag.animate,h3.animate {
+          padding-left: 24px;
+          transition-delay: 0.55s;
+          overflow: visible;
+        }
+      }
+      & + div {
+        @media (max-width: 767px) {
+          animation-delay: 0.7s;
+        }
+      }
+    }
+    .h_tag ,h3{
+      margin-bottom: 34px;
+      text-align: left;
+      @media (max-width: 767px) {
+        padding-left: 20px;
+      }
+      &.animate:before {
+        height: 100%;
+        @media (max-width: 767px) {
+          width: 2px;
+        }
+      }
+      &::before {
+        display: block;
+      }
+    }
+    span {
+      font-size: 14px;
+      color: #595959;
+      font-weight: 300;
+      @media (max-width: 767px) {
+        display: block;
+        padding-right: 35px;
+        line-height: 1.4;
+      }
+    }
+    a {
+      color: $secondary;
+      margin-top: 15px;
+      text-decoration: underline;
+      font-weight: 300;
+      transition: none;
+      font-size: 14px;
+      display: block;
+      @media (max-width: 767px) {
+        margin-top: 15px;
+      }
+      &:hover {
+        font-weight: 400;
+      }
+    }
+  }
+  &_block {
+  }
+  &_list {
+    margin-top: 30px;
+    @media (max-width: 991px) {
+      margin-top: 60px;
+    }
+    li {
+      position: relative;
+      padding: 0 32px 32px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid #f0f0f0;
+      @media (max-width: 991px) {
+        padding: 0 15px 15px;
+      }
+      @media (max-width: 767px) {
+        padding: 0 15px 15px 0;
+      }
+      &.active {
+        h6 {
+          a {
+            font-weight: 400;
+          }
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 30px;
+        width: 7px;
+        height: 7px;
+        rotate: 45deg;
+        border-bottom: 2px solid $light_black;
+        border-right: 2px solid $light_black;
+        transition: 0.3s linear;
+        @media (max-width: 1199px) {
+          right: 25px;
+        }
+        @media (max-width: 767px) {
+          right: 15px;
+          top: 7px;
+        }
+      }
+      &.active {
+        &:after {
+          transform: rotate(-180deg);
+          -o-transform: rotate(-180deg);
+          -moz-transform: rotate(-180deg);
+          -webkit-transform: rotate(-180deg);
+          top: 10px;
+          border-color: $gray_nine;
+        }
+      }
+      &:hover {
+        &:after {
+          border-color: $gray_nine;
+        }
+        h6 {
+          a {
+            font-weight: 400;
+          }
+        }
+      }
+      h6 {
+        margin-bottom: 0;
+        max-width: 90%;
+        @media (max-width: 767px) {
+        }
+        a {
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 25px;
+          font-family: $body-font;
+          transition: 0.3s ease all;
+          color: $gray_nine;
+          @media (max-width: 767px) {
+            font-size: 16px;
+          }
+        }
+      }
+      .answer {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+        color: $light_black;
+        @media (max-width: 767px) {
+          font-size: 14px;
+        }
+        a {
+          color: $light_black;
+          font-size: inherit;
+          text-decoration: underline;
+          &:hover{
+            color: $secondary;
+          }
+        }
+        
+        p {
+          a {
+            color: $light_black;
+            font-size: inherit;
+            text-decoration: underline;
+            &:hover{
+              color: $secondary;
+            }
+          }
+          &:not(:last-child) {
+            margin-bottom: 20px;
+          }
+          @media (max-width: 767px) {
+            font-size: 14px;
+          }
+        }
+        ul {
+          margin-bottom: 20px;
+          li {
+            border: 0;
+            padding: 0;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: $light_black;
+            margin-left: 30px;
+            list-style: disc;
+            &::marker{
+              color: rgb(89 89 89 / 81%);
+            }
+            &:after{
+              content: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  & + .pos_rel {
+    background-color: $white;
+    .action_section {
+      margin-top: 0;
+    }
+  }
+}
