@@ -422,6 +422,10 @@
       @media (max-width: 1366px) {
         padding: 180px 0 60px;
       }
+      @media (max-width: 991px) {
+        min-height: auto;
+        padding: 130px 0 110px;
+      }
       @media (max-width: 767px) {
         padding: 140px 0 130px 0;
         clip-path: ellipse(145% 68% at 49.5% 32%);
@@ -909,7 +913,6 @@ body.single-case-study {
       &:before {
         display: none;
       }
-
       @media (max-width: 767px) {
         gap: 8px;
         padding-bottom: 0;
@@ -1091,6 +1094,9 @@ body.single-case-study {
 .bottomBC {
   padding: 28px 0;
   background-color: $gray;
+  @media (max-width:991px){
+    overflow: hidden;
+  }
   .breadcrumbs {
     background: transparent;
     max-width: 100%;

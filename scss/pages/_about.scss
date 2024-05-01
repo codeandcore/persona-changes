@@ -152,7 +152,6 @@
     justify-content: space-between;
     margin-top: 100px;
     padding-bottom: 161px;
-    gap: 66px 0;
     @media (max-width: 1199px) {
       padding-bottom: 80px;
     }
@@ -160,7 +159,6 @@
       padding-bottom: 0px;
       flex-direction: column;
       margin-top: 81px;
-      gap:  0;
     }
     .value_box {
       width: 100%;

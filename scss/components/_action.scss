@@ -15,8 +15,10 @@
     top: 0px;
   }
   @media (max-width:767px) {
-    transform: rotate(-2deg);
-    top: -13px;
+    transform: rotate(-5deg);
+    top: -23px;
+    min-width: calc(100% + 30px);
+    margin-left: -70px;
   }
     svg{
       @media (min-width:1930px) {

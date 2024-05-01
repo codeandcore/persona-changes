@@ -30,7 +30,7 @@ footer {
   }
   .advisory_content {
     margin-top: 31px;
-    @media(max-width:991px){
+    @media (max-width: 991px) {
       margin-top: 16px;
     }
     p {
@@ -41,7 +41,7 @@ footer {
       max-width: 320px;
       color: $gray_text;
       padding: 0;
-      @media(max-width:767px){
+      @media (max-width: 767px) {
         max-width: 100%;
       }
     }
@@ -392,7 +392,7 @@ footer {
       }
       li {
         // &:first-child{
-        //   margin-left: 0px;  
+        //   margin-left: 0px;
         // }
         // margin-left: 30px;
         display: inline-block;
@@ -404,7 +404,6 @@ footer {
         @media (max-width: 767px) {
           margin: 0;
           padding: 0 10px;
-          
         }
         &:not(:last-child)::before {
           @media (max-width: 767px) {
